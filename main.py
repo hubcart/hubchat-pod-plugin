@@ -27,7 +27,7 @@ hubcart_url = "https://members.app.hubcart.ai:7860/sdapi/v1/txt2img"
             else:
                 return None
 
-@app.post("/sdapi/v1/txt2img"")
+@app.post("/images/generations")
 async def handle_image_generation():
     try:
         data = await request.json
