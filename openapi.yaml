@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: ChatGPT Plugin API
+  title: HubChat POD Plugin API
   version: 1.0.0
   description: A simple plugin for designing images.
 servers:
