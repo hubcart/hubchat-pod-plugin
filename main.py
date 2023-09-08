@@ -4,7 +4,7 @@ import quart
 import quart_cors
 from quart import request
 
-app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
+// app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.com")
 
 hubcart_url = "https://members.app.hubcart.ai:7860/sdapi/v1/txt2img"
 
